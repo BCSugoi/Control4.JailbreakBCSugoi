@@ -1,33 +1,12 @@
 # What
 
-Jailbreak tool for Control4 3.2.1 - allowing add/rename/move rooms/drivers/devices without being a dealer.
+Jailbreak tool for Control4 3.4.1 - allowing add/rename/move rooms/drivers/devices without being a dealer.
 
-*** this forked version is intended primarily to allow inputs of Constants via an xml config file ***
+*** this forked version is intended primarily to add a method of providing parameter values via an xml config file ***
 
-# Why
+*** Please see [Garry Newman's page](https://github.com/garrynewman/Control4.Jailbreak) for more info ***
 
-I'm a nerd. I got home automation in my house so I could play with it, so I could write my own drivers and make it do cool stuff. By default you can't do that without being an authorized dealer - unless you jailbreak your Director.
+Head over to the [releases page](https://github.com/BCSugoi/Control4.JailbreakBCSugoi/releases) and download the zip (not the source). 
+Unzip and then EDIT the config.xml file to set values you like for the certificate name and the "ComposerCN" name.  Other values
+should not need to be updated.
 
-There are a few dodgy tools floating around that achieve the same thing, but the process is over-complicated, error prone and out of date.
-
-I thought it would be safer/easier in the long run to write something open source.
-
-# How
-
-Head over to the [releases page](https://github.com/garrynewman/Control4.Jailbreak/releases) and download the zip (not the source). Unzip and run C4Jailbreak.exe.
-
-## Follow Each Step
-
-![Steps](https://files.facepunch.com/garry/aba22fcf-672e-41e1-8184-f74d4d8a0b53.png)
-
-## Enjoy
-
-You're all done
-
-# Other stuff
-
-Everything is at your own risk, obviously. If this tool leads to your house burning down you can't blame me.
-
-To Control4 - please don't be angry at this tool. I love my control4 automated house and would spend a ton more time and money with you guys if I didn't have to do it through a dealer every time. If you want to contact me I'm at garrynewman@gmail.com <3
-
-We have a small reddit group for Control4 DIY over at https://www.reddit.com/r/C4diy/ - feel free to ask for help here.
