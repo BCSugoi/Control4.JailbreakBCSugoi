@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <!-- The cert for composer needs to be named cacert-*.pem -->
+  <ComposerCertName>cacert-yourcert.pem</ComposerCertName>
+
+  <!-- Needs to start with Composer_ and can be anything after -->
+  <CertificateCN>Composer_user@yourmail.com</CertificateCN>
+
+  <!-- Should always be this unless they change something internally -->
+  <CertPassword>R8lvpqtgYiAeyO8j8Pyd</CertPassword>
+
+  <!-- Where OpenSSL is installed (it's installed with Composer) -->
+
+  <OpenSslExe>C:\Program Files (x86)\Control4\Composer\Pro\RemoteAccess\bin\openssl.exe</OpenSslExe>
+
+  <!-- Where OpenSSL's Config is located (it's installed with Composer) -->
+  <OpenSslConfig>Certs\openssl.cfg</OpenSslConfig>
+
+  <!-- What version of Director/Composer we're aiming at -->
+  <TargetDirectorVersion>3.4.1</TargetDirectorVersion>
+
+  <!-- How many days until the certificate expires. Doesn't seem any harm in setting this to
+		 a huge value so you don't have to re-crack every year. -->
+  <CertificateExpireDays>3650</CertificateExpireDays>
+
+</configuration>

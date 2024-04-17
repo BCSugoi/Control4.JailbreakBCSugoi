@@ -15,7 +15,7 @@ namespace  Garry.Control4.Jailbreak
 	{
 		private IPAddress address;
 
-		SoapClient Soap;
+		// SoapClient Soap;
 		ConnectionInfo SshConnectionInfo;
 
 		public string SystemName { get; private set; }
