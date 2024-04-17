@@ -2,6 +2,8 @@
 
 Jailbreak tool for Control4 3.2.1 - allowing add/rename/move rooms/drivers/devices without being a dealer.
 
+*** this forked version is intended primarily to allow inputs of Constants via an xml config file ***
+
 # Why
 
 I'm a nerd. I got home automation in my house so I could play with it, so I could write my own drivers and make it do cool stuff. By default you can't do that without being an authorized dealer - unless you jailbreak your Director.
